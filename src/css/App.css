@@ -1,0 +1,443 @@
+/* main.js */
+.choose-me{
+
+    background-color: #272626;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 590px;
+    color: #C4B70D;
+}
+.choose-me h1{
+
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.choose-me h1::after{
+
+
+    content: '';
+    position: absolute;
+    width: 9%;
+    height: 3px; /* Adjust the thickness of the underline */
+    background-color: #FF3838;
+    bottom: 380px;
+    left: 45.5%;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    padding: 40px;
+    justify-content: space-between;
+}
+.img-choose{
+    
+   width: 100%;
+   margin-top: 10px;
+}
+
+.text-choose{
+    border: 2px dotted #FF3838;
+    padding: 50px;
+    color: white;
+    font-size: 15px;
+    max-width: 100%;
+    height: auto;
+    padding-right: 20px;
+    margin-left: 10%;
+}
+.img-h3-comb{
+
+    display: flex;
+
+}
+.check-img{
+
+    width: 25px;
+    height: 25px;
+
+}
+
+
+
+.text-choose h5{
+    margin-top: 25px;
+    font-weight: 400;
+}
+.handshake-img{
+
+    height: 300px;
+    max-width: 100%;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.read-more-btn{
+    background-color:#FF3838 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    cursor:pointer;
+    border-radius: 5px;
+
+    margin-top: 30px;
+}
+
+
+/* app.js */
+.second-container{
+
+    height: auto;
+
+}
+div.main-intro {
+    display: flex;
+}
+
+div.main-intro div.img-intro {
+    position: relative;
+    flex-grow: 1; /* Allow img-intro to take the remaining space */
+}
+
+div.img-intro img.img1 {
+    position: absolute;
+    height: 800px;
+    width: 700px; /* Use percentage to cover the entire container */
+    top: -100px;
+    left: -335px;
+    z-index: -1; /* Place img1 behind other content */
+}
+
+div.img-intro img.img2 {
+    position: absolute;
+    height: 500px;
+    max-width: 700px;
+    top: 5px;
+    left: 80px;
+    z-index: 1; /* Place img2 in front of img1 */
+}
+
+.left-intro {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.left-intro>h5{
+
+    font-size: 25px;
+    color: white;
+}
+
+.left-intro>h2{
+
+    font-size: 40px;
+    color: white;
+}
+.left-intro>h2>span{
+
+    font-size: 40px;
+    color: #c4b70d;
+}
+.left-intro>h3{
+
+    font-size: 28px;
+    color: #ff3838;
+}
+
+.left-intro>.p-first{
+    font-size: 13px;
+
+    color: rgb(199, 197, 197);
+    margin-top: 30px;
+    text-align: justify;
+}
+.left-intro>.p-second{
+    font-size: 13px;
+
+    color: rgb(199, 197, 197);
+    text-align: justify;
+}
+.buttons{
+
+    display: flex;
+    margin-top: 60px;
+
+}
+.button1{
+
+    background-color: #ff3838;
+    text-align: center;
+    margin-right: 15px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button2{
+
+    background-color: none;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid  #ff3838;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+/* Mobile Responsive Style */
+@media only screen and (max-width: 1200px) {
+
+    .choose-me h1::after{
+
+
+        
+        bottom: 680px;
+        
+    }
+    
+
+    .container{
+       flex-direction: column;
+    }
+    .text-choose{
+      
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .handshake-img{
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .left-intro>.p-first{
+    
+        font-size: 12px;
+    }
+    .left-intro>.p-second{
+    
+        font-size: 12px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 899px) {
+
+    .left-intro>.p-first{
+    
+        font-size: 11px;
+    }
+    .left-intro>.p-second{
+    
+        font-size: 11px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 890px) {
+
+ 
+        
+    div.main-intro .img-intro {
+        display: none;
+    }
+
+    .left-intro {
+        
+        left: 25%;
+    }
+    
+
+
+}
+
+
+@media only screen and (max-width: 863px) {
+
+    .choose-me h1{
+
+        font-size: 30px;
+    }
+    
+
+    .choose-me h1::after{
+
+        bottom: 700px;
+        width: 12%;
+        left: 44%;
+
+    }
+    
+
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+ 
+    .left-intro {
+        
+        left: 12%;
+    }
+    
+
+
+}
+
+
+@media only screen and (max-width: 646px) {
+
+    
+
+    .choose-me h1::after{
+
+        bottom: 715px;
+        width: 17%;
+        left: 42%;
+
+    }
+    
+}
+@media only screen and (max-width: 535px) {
+
+    .left-intro>.p-first{
+    
+        font-size: 11px;
+    }
+    .left-intro>.p-second{
+    
+        font-size: 11px;
+    }
+    
+    .left-intro>h5{
+
+        font-size: 18px;
+       
+    }
+
+    .left-intro>h2{
+
+        font-size: 33px;
+        
+    }
+    .left-intro>h2>span{
+
+        font-size: 33px;
+       
+    }
+    .left-intro>h3{
+
+        font-size: 20px;
+        color: #ff3838;
+    }
+
+    .button1{
+        width: 90px;
+        height: 40px;
+        font-size: 16px;
+    
+    }
+    .button2{
+
+        width: 140px;
+        height: 40px;
+        font-size: 16px;    
+     
+    }
+    .read-more-btn{
+        width: 120px;
+        height: 40px;
+        font-size: 12px;    
+
+    }
+    
+  
+
+}
+
+
+@media only screen and (max-width: 512px) {
+
+    
+
+    .choose-me h1::after{
+
+        bottom: 670px;
+        width: 21%;
+        left: 40%;
+
+    }
+    .container{
+       
+        padding: 20px;
+      
+    }
+ 
+    
+}
+
+@media only screen and (max-width: 490px) {
+
+ 
+    .left-intro {
+        
+        left: 10%;
+        padding-right:50px ;
+
+    }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+    .text-choose{
+        padding: 20px;
+        font-size: 15px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .container{
+       
+        padding: 20px;
+      
+    }
+ 
+}
