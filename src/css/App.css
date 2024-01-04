@@ -106,10 +106,10 @@ div.main-intro div.img-intro {
 
 div.img-intro img.img1 {
     position: absolute;
-    height: 800px;
+    height: 1000px;
     width: 700px; /* Use percentage to cover the entire container */
-    top: -100px;
-    left: -335px;
+    top: -215px;
+    left: -327px;
     z-index: -1; /* Place img1 behind other content */
 }
 

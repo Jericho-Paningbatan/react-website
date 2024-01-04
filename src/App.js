@@ -9,8 +9,8 @@ function App() {
       <div className='second-container'>
       <div className='main-intro'>
           <div className='img-intro'>
-            <img src='img/bg1.png' alt='bg1' className='img1'></img>
-            <img src='img/echoolog.png' alt='bg2' className='img2'></img>
+            <img src='./img/bg1.PNG' alt='bg1' className='img1'></img>
+            <img src='./img/echoolog.PNG' alt='bg2' className='img2'></img>
 
 
           </div>
