@@ -1,8 +1,25 @@
 import Head from './components/navigation.js';
+import Footer from './components/footer.js';
 import Main from './components/main.js';
 import './css/App.css';
 
 function App() {
+
+  // for download the resume
+  function downloadcv () {
+
+    var file = "files/Jericho-Paningbatan-Resume.pdf";
+    var a = document.createElement('a');
+
+    a.href = file;
+    a.download = 'Jericho-Paningbatan-Resume.pdf';
+
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+
+  };
+
   return (
     <div className='main-container'>
       <Head/>
@@ -24,7 +41,7 @@ function App() {
 
                 <div className='buttons'>
                   <div className='button1'><a href='facenook.com'>Hire Me</a></div>
-                  <div className='button2'><a href='facebook.com'>Download CV</a></div>
+                  <div className='button2' onClick={downloadcv}><a href=''>Download CV</a></div>
                 </div>
                 
           </div>
@@ -32,7 +49,7 @@ function App() {
       </div>
       
       <Main/>
-
+      <Footer/>
     </div>
   );
 }
