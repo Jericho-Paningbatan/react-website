@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import LocalPhoneTwoToneIcon from '@mui/icons-material/LocalPhoneTwoTone';
 
 const pages = ['Home', 'Portfolio', 'Blog', 'About Me'];
 
@@ -41,7 +42,7 @@ const Head = () => {
             flexGrow: 1,
             display: { xs: 'none', md: 'flex' },
             justifyContent: 'flex-end',
-            marginRight: '100px',
+            marginRight: '40px',
           }}>
             {pages.map((page) => (
               <Button
@@ -51,6 +52,7 @@ const Head = () => {
                   my: 2,
                   color: '#dcdde1',
                   display: 'block',
+                 
                   '&:hover': {
                     backgroundColor: 'none',
                     color: 'red',
@@ -60,6 +62,11 @@ const Head = () => {
                 {page}
               </Button>
             ))}
+
+            <Button style={{backgroundColor:'#ff3838', color:'whitesmoke', height:'40px', marginTop:'14px', marginLeft:'25px', padding:'15px',}}>
+            <LocalPhoneTwoToneIcon/> Contact Me
+               
+            </Button>
           </Box>
 
           {/* Menu icon for smaller screens (xs) */}
