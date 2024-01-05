@@ -2,11 +2,11 @@
 .choose-me{
 
     background-color: #272626;
-    position: absolute;
     width: 100%;
-    height: auto;
-    top: 590px;
+    height: 100%;
     color: #C4B70D;
+    margin-top: 500px;
+    padding: 20px;
 }
 .choose-me h1{
 
@@ -15,17 +15,6 @@
     font-size: 35px;
 }
 
-.choose-me h1::after{
-
-
-    content: '';
-    position: absolute;
-    width: 9%;
-    height: 3px; /* Adjust the thickness of the underline */
-    background-color: #FF3838;
-    bottom: 380px;
-    left: 45.5%;
-}
 
 .container{
     display: flex;
@@ -92,9 +81,9 @@
 /* app.js */
 .main-container{
 
-    min-height: 20vh;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .second-container{
     position: relative;
@@ -116,7 +105,7 @@ div.img-intro img.img1 {
     width: 700px; /* Use percentage to cover the entire container */
     top: -215px;
     left: -327px;
-    z-index: -1; /* Place img1 behind other content */
+    z-index: -2; /* Place img1 behind other content */
 }
 
 div.img-intro img.img2 {
@@ -125,7 +114,7 @@ div.img-intro img.img2 {
     max-width: 700px;
     top: 5px;
     left: 80px;
-    z-index: 1; /* Place img2 in front of img1 */
+    z-index: -1; /* Place img2 in front of img1 */
 }
 
 .left-intro {
@@ -237,14 +226,6 @@ a{
 /* Mobile Responsive Style */
 @media only screen and (max-width: 1200px) {
 
-    .choose-me h1::after{
-
-
-        
-        bottom: 680px;
-        
-    }
-    
 
     .container{
        flex-direction: column;
@@ -317,15 +298,6 @@ a{
     }
     
 
-    .choose-me h1::after{
-
-        bottom: 700px;
-        width: 12%;
-        left: 44%;
-
-    }
-    
-
 }
 
 
@@ -342,20 +314,6 @@ a{
 
 }
 
-
-@media only screen and (max-width: 646px) {
-
-    
-
-    .choose-me h1::after{
-
-        bottom: 715px;
-        width: 17%;
-        left: 42%;
-
-    }
-    
-}
 @media only screen and (max-width: 535px) {
 
     .left-intro>.p-first{
@@ -416,15 +374,6 @@ a{
 
 @media only screen and (max-width: 512px) {
 
-    
-
-    .choose-me h1::after{
-
-        bottom: 670px;
-        width: 21%;
-        left: 40%;
-
-    }
     .container{
        
         padding: 20px;
@@ -448,13 +397,6 @@ a{
 
 @media only screen and (max-width: 470px) {
 
-    .choose-me h1::after{
-
-        bottom: 610px;
-        width: 21%;
-        left: 40%;
-
-    }
 
     .text-choose{
         padding: 20px;
@@ -468,42 +410,5 @@ a{
         padding: 20px;
       
     }
- 
-}
-
-@media only screen and (max-width: 432px) {
-
-    .choose-me h1::after{
-
-        bottom: 628px;
-        width: 25%;
-        left: 38%;
-
-    }
-
- 
-}
-
-@media only screen and (max-width: 372px) {
-
-    .choose-me h1::after{
-
-        bottom: 627px;
-        width: 29%;
-        left: 36%;
-
-    }
-
-}
-@media only screen and (max-width: 371px) {
-
-    .choose-me h1::after{
-
-        bottom: 637px;
-        width: 29%;
-        left: 36%;
-
-    }
-
  
 }

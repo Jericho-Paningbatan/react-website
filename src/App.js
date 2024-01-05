@@ -21,8 +21,10 @@ function App() {
   };
 
   return (
-    <div className='main-container'>
-      <Head/>
+    <>
+            <Head/>
+
+        <div className='main-container'>
       <div className='second-container'>
       <div className='main-intro'>
           <div className='img-intro'>
@@ -48,9 +50,12 @@ function App() {
       </div>
       </div>
       
+    
+    </div>
       <Main/>
       <Footer/>
-    </div>
+    </>
+  
   );
 }
 
