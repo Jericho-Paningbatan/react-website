@@ -1,6 +1,8 @@
 import Head from './components/navigation.js';
 import Footer from './components/footer.js';
 import Main from './components/main.js';
+import Project from './components/project.js';
+
 import './css/App.css';
 
 function App() {
@@ -53,6 +55,7 @@ function App() {
     
     </div>
       <Main/>
+      <Project/>
       <Footer/>
     </>
   
