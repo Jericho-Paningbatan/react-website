@@ -20,6 +20,14 @@ const project = () => {
            <div className='source-btn'>View Source Code</div>
 
         </div>
+        <div className="card">
+
+            <img src="img/4.jpg" alt="card"/>
+            <h4> Student Management System</h4>
+            <div className='source-btn'>View Source Code</div>
+
+            </div>  
+
 
         <div className="card">
 
