@@ -1,4 +1,4 @@
-import '../css/App.css';
+import './css/App.css';
 
 const main = () => {
   return (
@@ -15,7 +15,9 @@ const main = () => {
                 <img src='/img/check.webp' className='check-img' alt='check-img'></img><span></span><h3>Why you should hire me?</h3>
                 </div>
           
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Turpis in eu mi bibendum neque egestas congue quisque egestas.</h5>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra. 
+                  Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Turpis in eu mi bibendum neque egestas congue quisque egestas.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra. 
+                  Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Turpis in eu mi bibendum neque egestas congue quisque egestas.</h5>
                 <div className='read-more-btn'>
                     READ MORE
                 </div>

@@ -15,12 +15,19 @@
     margin:0 0 5px 5px; 
 
 }
-.social-media>a>img{
+.social-media>a{
 
     width: 25px; 
     height: 25px; 
     border-radius: 50%; 
     margin:0 10px 0 0; 
+    cursor: pointer;
+    color: rgb(195, 247, 229);
+
+}
+.social-media>a:hover{
+
+    transform: scale(1.1);
 
 }
 .copyright{

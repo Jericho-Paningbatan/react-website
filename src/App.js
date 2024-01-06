@@ -3,11 +3,10 @@ import Footer from './components/footer.js';
 import Main from './components/main.js';
 import Project from './components/project.js';
 
-import './css/App.css';
+import './components/css/App.css';
 
 function App() {
 
-  // for download the resume
   function downloadcv () {
 
     var file = "files/Jericho-Paningbatan-Resume.pdf";
@@ -44,8 +43,8 @@ function App() {
                 <br></br>expertise with a keen eye for design. Let's build captivating digital experiences together!</p>
 
                 <div className='buttons'>
-                  <div className='button1'><a href='facenook.com'>Hire Me</a></div>
-                  <div className='button2' onClick={downloadcv}><a href=''>Download CV</a></div>
+                  <div className='button1'>Hire Me</div>
+                  <div className='button2' onClick={downloadcv}>Download CV</div>
                 </div>
                 
           </div>

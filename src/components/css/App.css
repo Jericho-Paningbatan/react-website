@@ -6,14 +6,14 @@
     height: 100%;
     color: #C4B70D;
     margin-top: 500px;
-    padding: 20px;
+    padding: 10px;
     border-top: 0.5px solid rgb(73, 73, 73);
 
 }
 .choose-me h1{
 
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 35px;
 }
 
@@ -35,7 +35,7 @@
     font-size: 11px;
     font-family:Arial, Helvetica, sans-serif;
 }
-p>a{
+.img-choose>p>a{
 
     color: rgb(153, 185, 77);
     font-size: 11px;
@@ -48,7 +48,7 @@ p>a{
     padding: 50px;
     color: white;
     font-size: 15px;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     padding-right: 20px;
     margin-left: 10%;
@@ -194,6 +194,7 @@ div.img-intro img.img2 {
     display: flex;
     align-items: center;
     justify-content: center;
+   
 
 }
 .button2{
@@ -210,6 +211,7 @@ div.img-intro img.img2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -227,12 +229,7 @@ div.img-intro img.img2 {
 
     transition: 0.7s ease-in-out;
 }
-a{
 
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-
-}
 
 
 
