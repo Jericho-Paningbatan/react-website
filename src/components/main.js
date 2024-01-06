@@ -8,7 +8,7 @@ const main = () => {
         <div className='container'>
         <div className='img-choose'>
                 <img src='/img/hand shake.jpg' alt='img' className='handshake-img'></img>
-
+                <p>Copyright: Cecilie Arcurs on <a href='https://www.gettyimages.com/detail/photo/building-a-network-towards-success-royalty-free-image/635974362?adppopup=true'>Getty Images</a></p>
             </div>
             <div className='text-choose'>
                 <div className='img-h3-comb'>
