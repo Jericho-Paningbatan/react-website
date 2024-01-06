@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -33,9 +34,9 @@ const Head = () => {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* Logo as a link */}
-          <a href="#app-bar-with-responsive-menu" style={{ textDecoration: 'none' }}>
+          <Link to='/' style={{ textDecoration: 'none' }}>
             <img src="/img/mylogo.png" alt="Logo" style={{ marginRight: '10px', height: '80px', width: '150px' }} />
-          </a>
+          </Link>
 
           {/* Menu items for larger screens (md and up) */}
           <Box sx={{
@@ -47,7 +48,8 @@ const Head = () => {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
+                component={Link}
+                to={page === 'Home' ? '/' : `/${page.toLowerCase()}` }
                 sx={{
                   my: 2,
                   color: '#dcdde1',
@@ -62,6 +64,59 @@ const Head = () => {
                 {page}
               </Button>
             ))}
+
+              <Button
+              component={Link}
+              to="/portfolio"
+              sx={{
+                my: 2,
+                color: '#dcdde1',
+                display: 'none',
+              
+                '&:hover': {
+                  backgroundColor: 'none',
+                  color: 'red',
+                },
+              }}
+              >
+              </Button>
+
+              <Button
+              component={Link}
+              to="/blog"
+              sx={{
+                my: 2,
+                color: '#dcdde1',
+                display: 'none',
+              
+                '&:hover': {
+                  backgroundColor: 'none',
+                  color: 'red',
+                },
+              }}
+              >
+              </Button>
+
+              <Button
+              component={Link}
+              to="/about"
+              sx={{
+                my: 2,
+                color: '#dcdde1',
+                display: 'none',
+                
+                '&:hover': {
+                  backgroundColor: 'none',
+                  color: 'red',
+                },
+              }}
+              >
+              </Button>
+
+
+
+
+            
 
             <Button style={{backgroundColor:'#ff3838', color:'whitesmoke', height:'40px', marginTop:'14px', marginLeft:'25px', padding:'15px',}}>
             <LocalPhoneTwoToneIcon/> Contact Me
