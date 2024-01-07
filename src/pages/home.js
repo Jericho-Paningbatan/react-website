@@ -1,3 +1,5 @@
+"use client";
+import { FacebookProvider, CustomChat } from 'react-facebook';
 import '../components/css/App.css';
 import Head from '../components/navigation.js';
 import Footer from '../components/footer.js';
@@ -62,6 +64,10 @@ const home = () => {
             <Main/>
             <Project/>
             <Footer/>
+
+        <FacebookProvider appId="421745090517744" chatSupport>
+            <CustomChat pageId="229307256921178" minimized={true}/>
+      </FacebookProvider>
 
     </div>
   )
