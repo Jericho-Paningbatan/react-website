@@ -5,52 +5,75 @@ const project = () => {
     <div className="project-container">
       <h1>Recent Project</h1>
       <div className="sub-container">
-        <div className="card">
+     
+       
+        <div className='row'>
+                <div className="card">
 
-          <img src="img/4.jpg" alt="card"/>
-          <h4> Student Management System</h4>
-          <div className='source-btn'>View Source Code</div>
+                  <img src="img/4.jpg" alt="card"/>
+                  <h4> Student Management System</h4>
+                  <div className='source-btn'>View Source Code</div>
 
-        </div>
+                  </div>
+                  <div className="card">
 
-        <div className="card">
+                  <img src="img/4.jpg" alt="card"/>
+                  <h4> Student Management System</h4>
+                  <div className='source-btn'>View Source Code</div>
 
-           <img src="img/4.jpg" alt="card"/>
-           <h4> Student Management System</h4>
-           <div className='source-btn'>View Source Code</div>
-
-        </div>
-        <div className="card">
-
-            <img src="img/4.jpg" alt="card"/>
-            <h4> Student Management System</h4>
-            <div className='source-btn'>View Source Code</div>
-
-            </div>  
+                  </div>
 
 
-        <div className="card">
+                <div className="card">
 
-            <img src="img/4.jpg" alt="card"/>
-            <h4> Student Management System</h4>
-            <div className='source-btn'>View Source Code</div>
-        </div>
+                          <img src="img/4.jpg" alt="card"/>
+                          <h4> Student Management System</h4>
+                          <div className='source-btn'>View Source Code</div>
 
-        <div className="card">
+                </div>
+              <div className="card">
 
-            <img src="img/4.jpg" alt="card"/>
-            <h4> Student Management System</h4>
-            <div className='source-btn'>View Source Code</div>
-        </div>
+                          <img src="img/4.jpg" alt="card"/>
+                          <h4> Student Management System</h4>
+                          <div className='source-btn'>View Source Code</div>
 
-        <div className="card">
+                  </div>  
+
+            
+          </div>
+                  
+
+          <div className='row'>
+
+          <div className="card">
 
 <img src="img/4.jpg" alt="card"/>
 <h4> Student Management System</h4>
 <div className='source-btn'>View Source Code</div>
+
 </div>
+              <div className="card">
 
+                  <img src="img/4.jpg" alt="card"/>
+                  <h4> Student Management System</h4>
+                  <div className='source-btn'>View Source Code</div>
+              </div>
 
+            <div className="card">
+
+                    <img src="img/4.jpg" alt="card"/>
+                    <h4> Student Management System</h4>
+                    <div className='source-btn'>View Source Code</div>
+              </div>
+
+              <div className="card">
+
+              <img src="img/4.jpg" alt="card"/>
+              <h4> Student Management System</h4>
+              <div className='source-btn'>View Source Code</div>
+              </div>
+                              
+              </div>
         </div>      
     </div>
   )

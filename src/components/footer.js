@@ -9,7 +9,7 @@ const footer = () => {
   return (
 <div className="footer">
 
-      
+      <p>CONNECT US:</p>
 
       <div className="social-media">
       <a href="https://github.com/Jericho-Paningbatan">
@@ -32,7 +32,7 @@ const footer = () => {
 
       </div>
       <div className="copyright">
-        <h6>Copyright © 2024 Echoo Tech. All Rights Reserved.</h6>
+        <h6>COPYRIGHT © 2024 ECHOO TECH. ALL RIGHTS RESERVED.</h6>
       </div>
     </div>
   );

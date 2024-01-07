@@ -3,10 +3,18 @@
     text-align: center;
    
     width: 100%; 
-    height:80px;
+    height:95px;
     background-color: #9e1616;
-    padding: 20px;
+    padding: 10px;
 
+}
+p{
+
+    color: whitesmoke; 
+    font-size:13px; 
+    margin-top: 5px;
+    font-weight: 500;
+    font-family: 'Fira Code', monospace;
 }
 .social-media{
 
@@ -33,8 +41,14 @@
 .copyright{
 
     color: whitesmoke; 
-    font-size:18px; 
-    margin-top: 10px;
+    font-size:14px; 
+    margin-top: 15px;
+}
+.copyright h6{
+
+    font-family: 'Fira Code', monospace;
+
+
 }
 
 /* Mobile Responsive Style */
@@ -42,7 +56,6 @@
     .footer{
 
         bottom: -873px;
-
     }
     
 }

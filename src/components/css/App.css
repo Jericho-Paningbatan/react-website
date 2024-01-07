@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
 /* main.js */
 .choose-me{
 
@@ -8,13 +11,13 @@
     margin-top: 500px;
     padding: 10px;
     border-top: 0.5px solid rgb(73, 73, 73);
-
 }
 .choose-me h1{
 
     text-align: center;
     margin-top: 30px;
-    font-size: 35px;
+    font-size: 33px;
+    font-family: 'Fira Code', monospace;
 }
 
 
@@ -34,12 +37,13 @@
     color: rgb(189, 186, 186);
     font-size: 11px;
     font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Fira Code', monospace;
 }
 .img-choose>p>a{
 
     color: rgb(153, 185, 77);
     font-size: 11px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Fira Code', monospace;
 }
 
 
@@ -47,15 +51,21 @@
     border: 2px dotted #FF3838;
     padding: 50px;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     width: 100%;
     height: auto;
     padding-right: 20px;
     margin-left: 10%;
+    
 }
 .img-h3-comb{
 
     display: flex;
+
+}
+.img-h3-comb>h3{
+
+    font-family: 'Fira Code', monospace;
 
 }
 .check-img{
@@ -70,6 +80,7 @@
 .text-choose h5{
     margin-top: 25px;
     font-weight: 400;
+    font-family: 'Fira Code', monospace;
 }
 .handshake-img{
 
@@ -88,6 +99,7 @@
     height: 50px;
     cursor:pointer;
     border-radius: 5px;
+    font-family: 'Fira Code', monospace;
 
     margin-top: 30px;
 }
@@ -142,12 +154,14 @@ div.img-intro img.img2 {
 
     font-size: 25px;
     color: white;
+    font-family: 'Fira Code', monospace;
 }
 
 .left-intro>h2{
 
     font-size: 40px;
     color: white;
+    font-family: 'Fira Code', monospace;
 }
 .left-intro>h2>span{
 
@@ -158,18 +172,20 @@ div.img-intro img.img2 {
 
     font-size: 28px;
     color: #ff3838;
+    font-family: 'Fira Code', monospace;
 }
 
 .left-intro>.p-first{
-    font-size: 13px;
+    font-size: 10px;
 
     color: rgb(199, 197, 197);
     margin-top: 30px;
     text-align: justify;
+    font-family: 'Fira Code', monospace;
 }
 .left-intro>.p-second{
-    font-size: 13px;
-
+    font-size: 10px;
+    font-family: 'Fira Code', monospace;
     color: rgb(199, 197, 197);
     text-align: justify;
 }
@@ -177,7 +193,6 @@ div.img-intro img.img2 {
 
     display: flex;
     margin-top: 60px;
-
 }
 .button1{
 
@@ -188,13 +203,13 @@ div.img-intro img.img2 {
     height: 50px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
 
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    font-family: 'Fira Code', monospace;
 
 }
 .button2{
@@ -205,9 +220,9 @@ div.img-intro img.img2 {
     height: 50px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     border: 2px solid  #ff3838;
-
+    font-family: 'Fira Code', monospace;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -252,6 +267,11 @@ div.img-intro img.img2 {
         width: 100%;
         border-radius: 5px;
     }
+    .left-intro {
+        
+        left: 40%;
+    }
+    
 }
 
 
@@ -259,11 +279,19 @@ div.img-intro img.img2 {
 
     .left-intro>.p-first{
     
-        font-size: 12px;
+        font-size: 10px;
     }
     .left-intro>.p-second{
     
-        font-size: 12px;
+        font-size: 10px;
+    }
+         
+    div.main-intro .img-intro {
+        display: none;
+    }
+    .left-intro {
+        
+        left: 25%;
     }
     
 
@@ -284,29 +312,44 @@ div.img-intro img.img2 {
     
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 840px) {
 
- 
-        
-    div.main-intro .img-intro {
-        display: none;
-    }
 
     .left-intro {
         
-        left: 25%;
+        left: 15%;
     }
     
 
 
 }
+@media only screen and (max-width: 840px) {
+
+
+    .left-intro {
+        
+        left: 10%;
+    }
+    .left-intro>.p-first{
+    
+        font-size: 9px;
+    }
+    .left-intro>.p-second{
+    
+        font-size: 9px;
+    }
+    
+
+
+}
+
 
 
 @media only screen and (max-width: 863px) {
 
     .choose-me h1{
 
-        font-size: 30px;
+        font-size: 26px;
     }
     
 
@@ -314,12 +357,12 @@ div.img-intro img.img2 {
 
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 580px) {
 
  
     .left-intro {
         
-        left: 12%;
+        left: 8%;
     }
     
 
@@ -330,52 +373,52 @@ div.img-intro img.img2 {
 
     .left-intro>.p-first{
     
-        font-size: 11px;
+        font-size: 9px;
     }
     .left-intro>.p-second{
     
-        font-size: 11px;
+        font-size: 9px;
     }
     
     .left-intro>h5{
 
-        font-size: 18px;
+        font-size: 16px;
        
     }
 
     .left-intro>h2{
 
-        font-size: 33px;
+        font-size: 31px;
         
     }
     .left-intro>h2>span{
 
-        font-size: 33px;
+        font-size: 31px;
        
     }
     .left-intro>h3{
 
-        font-size: 20px;
+        font-size: 18px;
         color: #ff3838;
     }
 
     .button1{
         width: 90px;
         height: 40px;
-        font-size: 16px;
+        font-size: 14px;
     
     }
     .button2{
 
         width: 140px;
         height: 40px;
-        font-size: 16px;    
+        font-size: 14px;    
      
     }
     .read-more-btn{
         width: 120px;
         height: 40px;
-        font-size: 12px;    
+        font-size: 10px;    
 
     }
     
@@ -404,6 +447,11 @@ div.img-intro img.img2 {
         padding-right:50px ;
 
     }
+    .left-intro {
+       
+        top: 110px;
+    }
+    
 
 }
 
@@ -412,7 +460,7 @@ div.img-intro img.img2 {
 
     .text-choose{
         padding: 20px;
-        font-size: 15px;
+        font-size: 13px;
         padding-right: 10px;
         width: 100%;
     }
