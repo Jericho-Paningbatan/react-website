@@ -10,8 +10,8 @@ const project = () => {
         <div className='row'>
                 <div className="card">
 
-                  <img src="img/4.jpg" alt="card"/>
-                  <h4> Student Management System</h4>
+                  <img src="img/B.png" alt="card"/>
+                  <h4> Pet Grooming Cafe Management System(Desktop App)</h4>
                   <div className='source-btn'>View Source Code</div>
 
                   </div>
@@ -54,7 +54,7 @@ const project = () => {
 </div>
               <div className="card">
 
-                  <img src="img/4.jpg" alt="card"/>
+                  <img src="img/B.png" alt="card"/>
                   <h4> Student Management System</h4>
                   <div className='source-btn'>View Source Code</div>
               </div>

@@ -28,7 +28,6 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 40px;
-    overflow-x: auto;
 
 
 }
@@ -41,7 +40,7 @@
     margin: 10px;
     text-align: center;
     z-index: 999;
-    max-width: 80%;
+    width: 100%;
     
 }
 .card:hover{
@@ -52,10 +51,9 @@
 
 }
 .card>img{
-    width: 100%;
-    max-width: 100%;
+    width: 230px;
     align-items: center;
-
+    border-radius: 7px;
 }
 .card>h4{
     color: whitesmoke;
@@ -91,6 +89,16 @@
 
 
 /* Mobile Responsiveness */
+
+@media only screen and (max-width: 947px) {
+
+    .row{
+
+      overflow-x: auto;
+    }
+ 
+
+}
 
 
 @media only screen and (max-width: 740px) {
