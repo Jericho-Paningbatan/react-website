@@ -17,8 +17,8 @@ const project = () => {
                   </div>
                   <div className="card">
 
-                  <img src="img/4.jpg" alt="card"/>
-                  <h4> Student Management System</h4>
+                  <img src="img/E.png" alt="card"/>
+                  <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
                   <div className='source-btn'>View Source Code</div>
 
                   </div>
@@ -26,15 +26,15 @@ const project = () => {
 
                 <div className="card">
 
-                          <img src="img/4.jpg" alt="card"/>
-                          <h4> Student Management System</h4>
+                          <img src="img/E.png" alt="card"/>
+                          <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
                           <div className='source-btn'>View Source Code</div>
 
                 </div>
               <div className="card">
 
-                          <img src="img/4.jpg" alt="card"/>
-                          <h4> Student Management System</h4>
+                          <img src="img/E.png" alt="card"/>
+                          <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
                           <div className='source-btn'>View Source Code</div>
 
                   </div>  
@@ -47,29 +47,29 @@ const project = () => {
 
           <div className="card">
 
-<img src="img/4.jpg" alt="card"/>
-<h4> Student Management System</h4>
-<div className='source-btn'>View Source Code</div>
+                <img src="img/C.png" alt="card"/>
+                <h4> Pet Grooming Cafe Management System (Web App)</h4>
+                <div className='source-btn'>View Source Code</div>
 
-</div>
+          </div>
               <div className="card">
 
-                  <img src="img/B.png" alt="card"/>
-                  <h4> Student Management System</h4>
+                  <img src="img/D.png" alt="card"/>
+                  <h4>My Portfolio Website (React JS)</h4>
                   <div className='source-btn'>View Source Code</div>
               </div>
 
             <div className="card">
 
-                    <img src="img/4.jpg" alt="card"/>
-                    <h4> Student Management System</h4>
+                    <img src="img/E.png" alt="card"/>
+                    <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
                     <div className='source-btn'>View Source Code</div>
               </div>
 
               <div className="card">
 
-              <img src="img/4.jpg" alt="card"/>
-              <h4> Student Management System</h4>
+              <img src="img/E.png" alt="card"/>
+              <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
               <div className='source-btn'>View Source Code</div>
               </div>
                               

@@ -54,6 +54,7 @@
     width: 230px;
     align-items: center;
     border-radius: 7px;
+    height: 140px;
 }
 .card>h4{
     color: whitesmoke;
@@ -75,7 +76,7 @@
     cursor: pointer;
     border-radius: 5px;
     margin-left: 5px;
-    margin-top: 25px;
+    margin-top: 50px;
     user-select: none;
     font-family: 'Fira Code', monospace;
     font-size: 12px;
