@@ -160,8 +160,8 @@ const Head = () => {
             >
              {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Link to={page === 'Home' ? '/' : `/${page.toLowerCase()}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-                    <Typography textAlign="right">{page}</Typography>
+                  <Link to={page === 'Home' ? '/' : `/${page.toLowerCase()}`} style={{ textDecoration: 'none',  }}>
+                    <Typography textAlign="right" style={{color: 'black'}}>{page}</Typography>
                   </Link>
                 </MenuItem>
               ))}
