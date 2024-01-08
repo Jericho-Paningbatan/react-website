@@ -126,7 +126,6 @@ const Project = () => {
           </div>
             
           </div>
-                  <hr/>
           {/* ROW */}
           <div className='view-btn'>
             SEE MORE

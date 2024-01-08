@@ -9,7 +9,7 @@ const footer = () => {
   return (
 <div className="footer">
 
-      <p>CONNECT US:</p>
+      <p>Follow Me On:</p>
 
       <div className="social-media">
       <a href="https://github.com/Jericho-Paningbatan">

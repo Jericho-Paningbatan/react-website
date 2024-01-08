@@ -5,6 +5,7 @@ import Head from '../components/navigation.js';
 import Footer from '../components/footer.js';
 import Main from '../components/home/main.js';
 import Project from '../components/home/project.js';
+import Bloglatest from '../components/home/bloglatest.js';
 
 
 
@@ -63,6 +64,7 @@ const home = () => {
 
             <Main/>
             <Project/>
+            <Bloglatest/>
             <Footer/>
 
         <FacebookProvider appId="421745090517744" chatSupport>

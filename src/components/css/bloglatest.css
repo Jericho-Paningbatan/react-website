@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+.bloglatest-con{
+
+    position: relative;
+    background-color: #272626;
+    border-top: 0.5px solid rgb(73, 73, 73);
+
+}
+.bloglatest-con h1{
+
+    text-align: center;
+    font-family: 'Fira Code', monospace;
+    font-size: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #C4B70D;
+    padding-top: 25px;
+
+}
+
+.bloglatest-con h1::after{
+
+   content: '';
+   display: block;
+   border-bottom: 5px solid #fa2d2d; 
+   margin-top: 20px;
+   width: 10%;
+   border-radius: 10px;
+
+
+}
+.main-con{
+
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.left-con{
+
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+
+}
+
+.blogcard{
+
+    width: 270px;
+    background-color: rgb(19, 19, 18);
+    outline: white;
+}
+
+
+.blogcard img{
+
+    max-width: 100%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.info-con{
+
+    padding: 10px;
+    border-top: none;
+}
+.info-con p{
+
+font-size: 10px;
+color: rgb(197, 196, 196);
+
+}
+.info-con h3{
+
+    font-size: 20px;
+    margin-top: 20px;
+    color: #C4B70D;    
+}
+.info-con .p-content{
+
+    color: white;
+
+}
+
+
+.readmore-btn{
+
+    background-color:  #FF3838;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    font-size: 0.9em;
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 3px;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.right-con{
+
+    width: 30%;
+    padding: 10px;
+}
+
+.search-bar{
+
+    position: relative;
+    border-top: 2px solid #C4B70D;
+}
+.search-bar h3{
+
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-family: 'Fira Code', monospace;
+    margin-top: 10px;
+}
+.search{
+
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.search-input{
+
+    width: 75%;
+    height: 50px;
+    outline: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: 'Fira Code', monospace;
+    padding-left: 5px;
+    border: 2px solid #fa2d2d;
+    background-color: rgb(61, 61, 60);
+    color: whitesmoke;
+
+}
+.search-btn{
+
+    border: 2px solid #fa2d2d;
+    margin-left: 10px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: 'Fira Code', monospace;
+
+}
+.h4-div{
+
+    width: 100%;
+    border-top: 2px solid #C4B70D;
+    margin-top: 30px;
+    height: 50px;
+}
+.right-con h4{
+
+    color:  #C4B70D;
+    font-size: 1.4em;
+    font-family: 'Fira Code', monospace;
+    margin-top: 30px;
+
+}
+.social-con{
+
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+}
+.social-con a{
+
+    margin-right: 15px;
+   
+}
+.fa{
+
+    color: beige;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+.fa:hover{
+
+    opacity: 0.8;
+
+}
+.fa-facebook{
+
+    background-color: rgb(15, 98, 207);
+    width: 60px;
+    height: 50px;
+
+
+} 
+.fa-instagram{
+    background-color: #cf2e8c;
+    width: 60px;
+    height: 50px;
+} 
+.fa-linkedin{
+
+    background-color: rgb(8, 77, 168);
+    width: 60px;
+    height: 50px;
+}
+.fa-github{
+
+    background-color: rgb(69, 70, 70);
+    width: 60px;
+    height: 50px;
+}
+.fa-envelope{
+
+    background-color: rgb(8, 163, 67);
+    width: 60px;
+    height: 50px;
+}
+
+/* Mobile Responsiveness */
+
+@media only screen and (max-width: 1260px) {
+
+    .main-con{
+
+      
+        padding: 20px;
+        justify-content: space-around;
+        margin-top: 25px;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .left-con{
+
+        width: 100%;
+
+    }
+    .right-con{
+
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+@media only screen and (max-width: 835px) {
+
+    .main-con{
+
+      
+        padding: 20px;
+        justify-content: space-around;
+        margin-top: 25px;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .left-con{
+
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+   
+    
+    .right-con{
+
+        width: 100%;
+        padding: 10px;
+    }
+    .blogcard{
+
+        width: 100%;
+        background-color: rgb(19, 19, 18);
+        outline: white;
+        margin-top: 15px;
+    }
+    .blogcard img{
+
+        width: 100%;
+        font-size: 26px;
+
+    }
+    
+
+}
+
+@media only screen and (max-width: 500px) {
+
+   
+        .bloglatest-con h1{
+          
+            font-size: 26px;
+        
+        }
+        .bloglatest-con h1::after{
+          
+            width: 35%;
+        }
+      
+        .main-con{
+
+            padding: 20px;
+        
+        }
+        .social-con a{
+
+            margin-right: 10px;
+            margin-left: 6px;
+        }
+        .search-bar h3{
+
+            font-size: 1.1em;
+            margin-top: 20px;
+        }
+        .h4-div h4{
+
+            font-size: 1.2em;
+
+        }
+        
+
+}
+
