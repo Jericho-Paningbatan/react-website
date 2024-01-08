@@ -88,6 +88,48 @@
 
 }
 
+.left-btn{
+
+    position: absolute;
+    z-index: 1000;
+    left: -15px;
+    height: 45%;
+    
+}
+
+.right-btn{
+    position: absolute;
+    z-index: 1000;
+    right: -15px;
+    height: 45%;
+}
+.left-btn>button{
+
+    height: 80px;
+    margin-top: 120px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color:  rgba(68, 68, 70, 0.5); 
+    border: none;
+    color: whitesmoke;
+}
+.right-btn>button{
+    cursor: pointer;
+    height: 80px;
+    margin-top: 120px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:  rgba(68, 68, 70, 0.5); 
+    border: none;
+    color: whitesmoke;
+}
+.right-btn>button:active{
+
+    background-color: rgba(68, 68, 70, 0.5);
+}
+
+
 
 /* Mobile Responsiveness */
 
@@ -100,6 +142,9 @@
  
 
 }
+
+
+
 
 
 @media only screen and (max-width: 740px) {
