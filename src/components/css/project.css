@@ -73,9 +73,9 @@
 }
 .card:hover{
     background-color: #1a1d1f;
-    transition: 0.2s ease-in-out;
-    box-shadow: 10px 10px 15px rgba(180, 50, 78, 0.2);
-    transform: scale(1.0);
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 5px 10Px rgba(104, 103, 103, 0.2);
+    transform: scale(1.1);
 
 }
 .card>img{
@@ -240,6 +240,11 @@
         margin-bottom: 100px;
         margin-top: 20px;
         
+    }
+    .card:hover{
+
+        transform: scale(1);
+
     }
 
     
