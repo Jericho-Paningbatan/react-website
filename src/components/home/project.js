@@ -80,7 +80,9 @@ const Project = () => {
       <h1>Recent Project</h1>
       <div className="sub-container">
      
-       
+        <div className='view-btn'>
+            SEE MORE
+        </div>
         <div className='row'  ref={contentRefRow1} onScroll={handleScrollRow1}>
           <div className='left-btn' style={{ display: showLeftBtnRow1 ? 'block' : 'none' }} onClick={handleLeftBtnClickRow1}>
              <button id='lft-btn'>
@@ -124,8 +126,11 @@ const Project = () => {
           </div>
             
           </div>
-                  
+                  <hr/>
           {/* ROW */}
+          <div className='view-btn'>
+            SEE MORE
+        </div>
           <div className='row'  ref={contentRefRow2} onScroll={handleScrollRow2}>
 
           <div className='left-btn' style={{ display: showLeftBtnRow2 ? 'block' : 'none' }} onClick={handleLeftBtnClickRow2}>

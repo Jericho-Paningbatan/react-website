@@ -5,7 +5,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    text-align: center;
     padding: 20px;
     color: #C4B70D;
     border-top: 0.5px solid rgb(73, 73, 73);
@@ -16,11 +15,39 @@
     margin-top: 30px;
     font-size: 33px;
     font-family: 'Fira Code', monospace;
+    text-align: center;
 
 }
 .sub-container{
 
     position: relative;
+    margin-top: 30px;
+}
+.view-btn{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #FF3838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 3%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: 'Fira Code', monospace;
+    font-size: 13px;
+
+    
+}
+.view-btn:hover{
+
+    transform: scale(1.1);
+    background-color: #fa2d2d;
+    transition: 0.5s;
 }
 .row{
 
@@ -41,20 +68,21 @@
     text-align: center;
     z-index: 999;
     width: 100%;
+    margin-top: 60px;
     
 }
 .card:hover{
     background-color: #1a1d1f;
     transition: 0.2s ease-in-out;
     box-shadow: 10px 10px 15px rgba(180, 50, 78, 0.2);
-    transform: scale(1.1);
+    transform: scale(1.0);
 
 }
 .card>img{
     width: 230px;
     align-items: center;
     border-radius: 7px;
-    height: 140px;
+    height: 120px;
 }
 .card>h4{
     color: whitesmoke;
@@ -137,7 +165,7 @@
 
     .row{
 
-      overflow-x: auto;
+      overflow-x: hidden;
     }
  
 
@@ -164,13 +192,30 @@
     .sub-container{
 
         padding: 10px;
-        
+        margin-top: 10px;
     }
+    .right-btn>button{
+
+        margin-top: 170px;
+
+    }
+    .left-btn>button{
+
+        margin-top: 170px;
+
+    }
+   
 
     .project-container h1{
 
         font-size: 26px;
     
+    }
+    .card{
+
+        margin-top: 80px;
+
+
     }
     .card>h4{
        
@@ -186,6 +231,15 @@
       
         padding: 10px;
     
+    }
+    .view-btn{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        right: 3%;
+        margin-bottom: 100px;
+        margin-top: 20px;
+        
     }
 
     
