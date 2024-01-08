@@ -35,7 +35,7 @@ const Head = () => {
         <Toolbar disableGutters>
           {/* Logo as a link */}
           <Link to='/' style={{ textDecoration: 'none' }}>
-            <img src="/img/mylogo.png" alt="Logo" style={{ marginRight: '10px', height: '80px', width: '150px' }} />
+            <img src="/img/mylogo.png" alt="Logo" style={{ marginRight: '10px', height: '80px', width: '150px', userSelect:'none'}} />
           </Link>
 
           {/* Menu items for larger screens (md and up) */}

@@ -28,9 +28,20 @@ const footer = () => {
         <a href="mailto:echoop058@gmail.com">
           <EmailIcon/>
         </a>
-      
+
+       
 
       </div>
+      
+      <div className='con-links'>
+
+          <a href='#' className='links'>Privacy Policy</a> |
+          <a href='#' className='links'>Terms and Conditions</a> |
+          <a href='#' className='links'>FAQ'S</a> |
+          <a href='#' className='links'>Contact Us</a> 
+
+      </div>
+
       <div className="copyright">
         <h6>COPYRIGHT © 2024 ECHOO TECH. ALL RIGHTS RESERVED.</h6>
       </div>
