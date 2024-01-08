@@ -11,6 +11,7 @@
     margin-top: 500px;
     padding: 10px;
     border-top: 0.5px solid rgb(73, 73, 73);
+
 }
 .choose-me h1{
 
@@ -18,6 +19,18 @@
     margin-top: 30px;
     font-size: 33px;
     font-family: 'Fira Code', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-me h1::after{
+
+    content: "";
+    display: block;
+    border-bottom: 5px solid #FF3838;
+    width: 10%;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 
@@ -31,6 +44,11 @@
     
    width: 100%;
    margin-top: 10px;
+}
+.img-choose img{
+
+    height: 350px;
+
 }
 .img-choose>p{
 
@@ -49,12 +67,13 @@
 
 .text-choose{
     border: 2px dotted #FF3838;
-    padding: 50px;
+    padding: 30px;
     color: white;
     font-size: 14px;
     width: 100%;
     height: auto;
     padding-right: 20px;
+    padding-top: 50px;
     margin-left: 10%;
     
 }
@@ -78,7 +97,7 @@
 
 
 .text-choose h5{
-    margin-top: 25px;
+    margin-top: 40px;
     font-weight: 400;
     font-family: 'Fira Code', monospace;
 }
@@ -95,8 +114,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 140px;
-    height: 50px;
+    width: 130px;
+    height: 40px;
     cursor:pointer;
     border-radius: 5px;
     font-family: 'Fira Code', monospace;
@@ -123,16 +142,16 @@ div.main-intro {
 
 div.main-intro div.img-intro {
     position: relative;
-    flex-grow: 1; /* Allow img-intro to take the remaining space */
+    flex-grow: 1; 
 }
 
 div.img-intro img.img1 {
     position: absolute;
     height: 1000px;
-    width: 700px; /* Use percentage to cover the entire container */
+    width: 700px; 
     top: -215px;
     left: -327px;
-    z-index: -2; /* Place img1 behind other content */
+    z-index: -2; 
 }
 
 div.img-intro img.img2 {
@@ -141,7 +160,7 @@ div.img-intro img.img2 {
     max-width: 700px;
     top: 5px;
     left: 80px;
-    z-index: -1; /* Place img2 in front of img1 */
+    z-index: -1; 
 }
 
 .left-intro {
@@ -434,6 +453,10 @@ div.img-intro img.img2 {
         padding: 20px;
       
     }
+    .choose-me h1::after{
+
+        width: 25%;
+    }
  
     
 }
@@ -467,7 +490,7 @@ div.img-intro img.img2 {
 
     .container{
        
-        padding: 20px;
+        padding: 5px;
       
     }
  
