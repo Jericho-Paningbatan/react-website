@@ -15,13 +15,13 @@ const Project = () => {
   const handleScrollRow1 = () => {
     const content = contentRefRow1.current;
     setShowLeftBtnRow1(content.scrollLeft > 0);
-    setShowRightBtnRow1(content.scrollLeft + content.clientWidth < content.scrollWidth);
+    setShowRightBtnRow1(content.scrollLeft + content.clientWidth < content.scrollWidth - 1);
   };
 
   const handleScrollRow2 = () => {
     const content = contentRefRow2.current;
     setShowLeftBtnRow2(content.scrollLeft > 0);
-    setShowRightBtnRow2(content.scrollLeft + content.clientWidth < content.scrollWidth);
+    setShowRightBtnRow2(content.scrollLeft + content.clientWidth < content.scrollWidth - 1);
   };
 
   useEffect(() => {
@@ -51,7 +51,7 @@ const Project = () => {
     const content = contentRefRow1.current;
     content.scrollLeft += 300;
     setShowLeftBtnRow1(true);
-    setShowRightBtnRow1(content.scrollLeft + content.clientWidth < content.scrollWidth);
+    setShowRightBtnRow1(content.scrollLeft + content.clientWidth < content.scrollWidth - 1);
   };
 
   const handleLeftBtnClickRow1 = () => {
@@ -65,7 +65,7 @@ const Project = () => {
     const content = contentRefRow2.current;
     content.scrollLeft += 300;
     setShowLeftBtnRow2(true);
-    setShowRightBtnRow2(content.scrollLeft + content.clientWidth < content.scrollWidth);
+    setShowRightBtnRow2(content.scrollLeft + content.clientWidth < content.scrollWidth - 1);
   };
 
   const handleLeftBtnClickRow2 = () => {
