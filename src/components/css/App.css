@@ -81,19 +81,18 @@
 
 .animate1{
 
-    animation: introanimation1 0.7s ease-in;
-    overflow: hidden;
+    animation: introanimation1 0.5s ease-in;
 
 }
 .animate2{
 
-    animation: introanimation2 0.7s ease-in;
+    animation: introanimation2 0.5s ease-in;
 
 }
 .animate3{
 
 
-    animation: introanimation3 0.7s ease-in;
+    animation: introanimation3 0.5s ease-in;
 
 }
 
@@ -278,32 +277,32 @@ div.img-intro img.img2 {
     left: 50%;
 }
 
-.left-intro>h5{
+.left-intro1>h5{
 
     font-size: 25px;
     color: white;
     font-family: 'Fira Code', monospace;
 }
 
-.left-intro>h2{
+.left-intro1>h2{
 
     font-size: 40px;
     color: white;
     font-family: 'Fira Code', monospace;
 }
-.left-intro>h2>span{
+.left-intro1>h2>span{
 
     font-size: 40px;
     color: #c4b70d;
 }
-.left-intro>h3{
+.left-intro1>h3{
 
     font-size: 28px;
     color: #ff3838;
     font-family: 'Fira Code', monospace;
 }
 
-.left-intro>.p-first{
+.left-intro2>.p-first{
     font-size: 10px;
 
     color: rgb(199, 197, 197);
@@ -311,7 +310,7 @@ div.img-intro img.img2 {
     text-align: justify;
     font-family: 'Fira Code', monospace;
 }
-.left-intro>.p-second{
+.left-intro2>.p-second{
     font-size: 10px;
     font-family: 'Fira Code', monospace;
     color: rgb(199, 197, 197);
