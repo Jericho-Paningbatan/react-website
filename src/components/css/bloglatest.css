@@ -49,9 +49,9 @@
 .blogcard{
 
     width: 270px;
-    background-color: rgb(19, 19, 18);
-    outline: white;
-}
+    background-color: rgb(17, 12, 12);
+    box-shadow: 0 1px 4px #1ba5a5;
+}   
 
 
 .blogcard img{
@@ -85,8 +85,7 @@ color: rgb(197, 196, 196);
 
 
 .readmore-btn{
-
-    background-color:  #FF3838;
+    background: linear-gradient(to right,  #6d1212, #6d0a20);
     margin-top: 30px;
     margin-bottom: 20px;
     display: flex;
@@ -127,7 +126,21 @@ color: rgb(197, 196, 196);
     margin-top: 15px;
     
 }
+.icon-search{
+    height: 45.5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 172.9px;
+    width: 40px;
+    left: 2px;
+    background: #2d3436;
+}
+.icon-search i{
+    margin-left: 2px;
 
+}
 .search-input{
 
     width: 75%;
@@ -136,16 +149,21 @@ color: rgb(197, 196, 196);
     border-radius: 3px;
     font-size: 18px;
     font-family: 'Fira Code', monospace;
-    padding-left: 5px;
-    border: 2px solid #fa2d2d;
-    background-color: rgb(61, 61, 60);
+    padding-left: 50px;
+    border: 2px solid  #6d0a20;
+    
+    background-color: rgb(56, 56, 55);
     color: whitesmoke;
+
+}
+.search-input:focus{
+
+    border: 2px solid  #be3c59;
+
 
 }
 .search-btn{
 
-    border: 2px solid #fa2d2d;
-    margin-left: 10px;
     width: 90px;
     display: flex;
     align-items: center;
@@ -155,6 +173,13 @@ color: rgb(197, 196, 196);
     cursor: pointer;
     border-radius: 3px;
     font-family: 'Fira Code', monospace;
+    background: linear-gradient(to right,  #6d1212, #6d0a20);
+
+}
+.search-btn:hover{
+
+    background: linear-gradient(to right,  #911919, #961f39);
+
 
 }
 .h4-div{

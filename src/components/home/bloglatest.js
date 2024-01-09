@@ -61,7 +61,10 @@ const Bloglatest = () => {
                         
                         <h3>Find Articles</h3>
                         <div className='search'>
+                            <div className='icon-search'>
+                                <i class="fa fa-search"></i>
 
+                            </div>
                             <input type="text" className="search-input" placeholder='Search'></input>
                             <div className="search-btn">Search</div>
 

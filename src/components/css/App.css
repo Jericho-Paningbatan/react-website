@@ -1,6 +1,71 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
+/* Animation */
+
+@keyframes introanimation1 {
+    to{
+
+        transform: translateX(0);
+
+    }
+    from{
+
+        transform: translateX(900px);
+
+    }
+    
+}
+
+@keyframes introanimation2 {
+    to{
+
+        transform: translateX(0);
+
+    }
+    from{
+
+        transform: translateX(-500px);
+
+    }
+    
+}
+
+@keyframes introanimation3 {
+    to{
+
+        transform: translateY(0);
+
+    }
+    from{
+
+        transform: translateY(300px);
+
+    }
+    
+}
+
+.animate1{
+
+    animation: introanimation1 0.7s ease-in;
+    overflow: hidden;
+
+}
+.animate2{
+
+    animation: introanimation2 0.7s ease-in;
+
+}
+.animate3{
+
+
+    animation: introanimation3 0.7s ease-in;
+
+}
+
+
+
+
 /* main.js */
 .choose-me{
 
@@ -110,7 +175,8 @@
 }
 
 .read-more-btn{
-    background-color:#FF3838 ;
+    background: linear-gradient(to right,  #851b1b, #6d0a1f);
+    box-shadow: 10px 5px 10Px rgba(71, 71, 71, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -216,7 +282,9 @@ div.img-intro img.img2 {
 }
 .button1{
 
-    background-color: #ff3838;
+    background: linear-gradient(to right,  #851b1b, #6d0a1f);
+    box-shadow: 10px 5px 10Px rgba(71, 71, 71, 0.2);
+
     text-align: center;
     margin-right: 15px;
     width: 100px;
@@ -242,7 +310,7 @@ div.img-intro img.img2 {
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
-    border: 2px solid  #ff3838;
+    border: 2px solid  #791313;
     font-family: 'Fira Code', monospace;
     display: flex;
     align-items: center;
@@ -254,7 +322,7 @@ div.img-intro img.img2 {
 
 .button1:hover{
 
-    background-color: #c4b70d;
+    background: linear-gradient(to right,  #c4b70d, #767e07);
 
     transition: 0.7s ease-in-out;
 }

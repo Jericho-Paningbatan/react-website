@@ -40,7 +40,6 @@
 .view-btn{
     width: 120px;
     height: 40px;
-    border: 1px solid #FF3838;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,13 +53,14 @@
     color: whitesmoke;
     font-family: 'Fira Code', monospace;
     font-size: 13px;
+    background: linear-gradient(to right,  #837b0cd8, #b11a3b);
+
 
     
 }
 .view-btn:hover{
 
     transform: scale(1.1);
-    background-color: #fa2d2d;
     transition: 0.5s;
 }
 .row{
@@ -74,8 +74,6 @@
 }
 
 .card{
-    background-color: #151718;
-    border: 1px solid yellowgreen;
     border-radius: 5px;
     margin: 10px;
     text-align: center;
@@ -83,13 +81,14 @@
     width: 100%;
     margin-top: 60px;
     padding: 5px;
+    background-color: rgb(17, 12, 12);
+    box-shadow: 0 1px 4px #1ba5a5;
 }
 .card:hover{
-    background-color: #1a1d1f;
+    background-color: #070808;
     transition: 0.5s ease-in-out;
-    box-shadow: 10px 5px 10Px rgba(104, 103, 103, 0.2);
-    transform: scale(1.1);
-
+    box-shadow: 10px 5px 10Px rgba(71, 71, 71, 0.2);
+    opacity: 0.9;
 }
 .img-con{
 
@@ -112,7 +111,7 @@
     text-align: left;
     margin-left: 5px;
     margin-top: 20px;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-family: 'Fira Code', monospace;
 }
 .source-btn{
@@ -121,7 +120,7 @@
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    background-color: #FF3838;
+    background: linear-gradient(to right,  #6d1212, #6d0a20);
     width: 140px;
     height: 40px;
     cursor: pointer;
@@ -135,6 +134,7 @@
 .source-btn:hover{
 
     background-color: #9b910a ;
+    transform: scale(1.1);
 
 
 }
@@ -273,7 +273,12 @@
         right: 0;
         margin-bottom: 100px;
         margin-top: 20px;
-        
+        border-radius: 0;
+    }
+    .view-btn:hover{
+
+        transform: scale(1);
+        transition: 0.5s;
     }
     .card:hover{
 

@@ -37,12 +37,12 @@ const home = () => {
       <div className='second-container'>
       <div className='main-intro'>
           <div className='img-intro'>
-            <img src='img/bg1.png' alt='bg1' className='img1'></img>
-            <img src='img/echoolog.png' alt='bg2' className='img2'></img>
+            <img src='img/bg1.png' alt='bg1' className='img1 animate2'></img>
+            <img src='img/echoolog.png' alt='bg2' className='img2 animate2'></img>
 
 
           </div>
-          <div className='left-intro'>
+          <div className='left-intro animate1'>
               <h5>Hi,</h5>
               <h2>I'm <span>Jericho Paningbatan</span></h2>
               <h3>Front-End Developer</h3>
@@ -50,7 +50,7 @@ const home = () => {
                 <p className= 'p-second'> I specialize in transforming ideas into responsive, dynamic websites, blending my technical 
                 <br></br>expertise with a keen eye for design. Let's build captivating digital experiences together!</p>
 
-                <div className='buttons'>
+                <div className='buttons animate3'>
                   <div className='button1'>Hire Me</div>
                   <div className='button2' onClick={downloadcv}>Download CV</div>
                 </div>
