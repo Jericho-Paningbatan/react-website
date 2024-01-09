@@ -93,6 +93,7 @@
 
 
     animation: introanimation3 0.5s ease-in;
+    z-index: -999;
 
 }
 
@@ -115,7 +116,7 @@
     margin-top: 500px;
     padding: 10px;
     border-top: 0.5px solid rgb(73, 73, 73);
-
+    z-index: 999;
 }
 .choose-me h1{
 
@@ -267,7 +268,6 @@ div.img-intro img.img2 {
     top: 5px;
     left: 80px;
     z-index: -1;
-    animation: fadein 0.5s ease; 
 
 }
 
@@ -320,6 +320,7 @@ div.img-intro img.img2 {
 
     display: flex;
     margin-top: 60px;
+    z-index: -2;
 }
 .button1{
 
@@ -334,7 +335,7 @@ div.img-intro img.img2 {
     cursor: pointer;
     font-size: 18px;
     color: rgb(255, 255, 255);
-
+    z-index: -2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -358,6 +359,7 @@ div.img-intro img.img2 {
     justify-content: center;
     color: rgb(255, 255, 255);
     user-select: none;
+    z-index: -2;
 
 }
 
