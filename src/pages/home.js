@@ -38,7 +38,7 @@ const home = () => {
       <div className='main-intro'>
           <div className='img-intro'>
             <img src='img/bg1.png' alt='bg1' className='img1 animate2'></img>
-            <img src='img/echoolog.png' alt='bg2' className='img2 animate2'></img>
+            <img src='img/echoolog.png' alt='bg2' className='img2 animate4'></img>
 
 
           </div>
