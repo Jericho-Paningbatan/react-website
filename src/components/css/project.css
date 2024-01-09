@@ -77,13 +77,12 @@
     background-color: #151718;
     border: 1px solid yellowgreen;
     border-radius: 5px;
-    padding: 20px;
     margin: 10px;
     text-align: center;
     z-index: 999;
     width: 100%;
     margin-top: 60px;
-    
+    padding: 5px;
 }
 .card:hover{
     background-color: #1a1d1f;
@@ -92,18 +91,28 @@
     transform: scale(1.1);
 
 }
-.card>img{
-    width: 230px;
-    align-items: center;
-    border-radius: 7px;
-    height: 120px;
+.img-con{
+
+    width: 100%;
+
 }
-.card>h4{
+.img-con img{
+    width: 100%;
+    align-items: center;
+    height: 150px ;
+}
+.info-pro{
+
+    position: relative;
+    padding: 10px;
+
+}
+.info-pro>h4{
     color: whitesmoke;
     text-align: left;
     margin-left: 5px;
     margin-top: 20px;
-    font-size: 11px;
+    font-size: 0.8em;
     font-family: 'Fira Code', monospace;
 }
 .source-btn{
@@ -121,7 +130,7 @@
     margin-top: 50px;
     user-select: none;
     font-family: 'Fira Code', monospace;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 .source-btn:hover{
 
@@ -197,6 +206,10 @@
         flex-direction: row;
         flex-wrap: nowrap;
     }
+    .view-btn{
+        width: 100%;
+        right: 0;   
+    }
  
 
 }
@@ -266,6 +279,10 @@
 
         transform: scale(1);
 
+    }
+    .view-btn{
+        width: 100%;
+        right: 0;   
     }
 
     

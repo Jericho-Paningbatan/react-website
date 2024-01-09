@@ -91,33 +91,68 @@ const Project = () => {
           </div>
                 <div className="card">
 
+                  <div className='img-con'>
                   <img src="img/B.png" alt="card"/>
-                  <h4> Pet Grooming Cafe Management System (Desktop App)</h4>
-                  <div className='source-btn'>View Source Code</div>
 
+                  </div>
+                  <div className='info-pro'>
+                      <h4> Pet Grooming Cafe Management System (Desktop App)</h4>
+                      <div className='source-btn'>View Source Code</div>
+
+                  </div>
+
+                
                   </div>
                   <div className="card">
 
-                  <img src="img/E.png" alt="card"/>
-                  <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
-                  <div className='source-btn'>View Source Code</div>
+                  <div className='img-con'>
 
+                      <img src="img/E.png" alt="card"/>
+
+                  </div>
+                
+                  <div className='info-pro'>
+                          <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
+                          <div className='source-btn'>View Source Code</div>
+
+                  </div>
+
+                 
                   </div>
 
 
                 <div className="card">
+                
+                        <div className='img-con'>
 
-                          <img src="img/E.png" alt="card"/>
-                          <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
-                          <div className='source-btn'>View Source Code</div>
+                              <img src="img/E.png" alt="card"/>
+                        </div>
+                        <div className='info-pro'>
+
+                            <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
+                            <div className='source-btn'>View Source Code</div>
+                        </div>
+
+                          
 
                 </div>
               <div className="card">
 
+             
+                        <div className='img-con'>
                           <img src="img/E.png" alt="card"/>
-                          <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
-                          <div className='source-btn'>View Source Code</div>
 
+                                                  
+                        </div>
+
+                        <div className='info-pro'>
+
+                            <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
+                            <div className='source-btn'>View Source Code</div>
+
+                        </div>
+
+                          
                   </div>  
                   <div className='right-btn'>
              <button id='rgt-btn' style={{ display: showRightBtnRow1 ? 'block' : 'none' }} onClick={handleRightBtnClickRow1}>
@@ -140,30 +175,60 @@ const Project = () => {
 
           <div className="card">
 
-                <img src="img/C.png" alt="card"/>
+          <div className='img-con'>
+            <img src="img/C.png" alt="card"/>
+
+                          
+          </div>
+          <div className='info-pro'>
                 <h4> Pet Grooming Cafe Management System (Web App)</h4>
                 <div className='source-btn'>View Source Code</div>
+          </div>
+
+               
 
           </div>
               <div className="card">
 
-                  <img src="img/D.png" alt="card"/>
-                  <h4>My Portfolio Website (React JS)</h4>
-                  <div className='source-btn'>View Source Code</div>
+                  <div className='img-con'>
+                    <img src="img/D.png" alt="card"/>
+
+                  </div>
+                  <div className='info-pro'>
+                      <h4>My Portfolio Website (React JS)</h4>
+                      <div className='source-btn'>View Source Code</div>
+                  </div>
+
+                 
               </div>
 
             <div className="card">
-
+                  <div className='img-con'>
                     <img src="img/E.png" alt="card"/>
+
+                  </div>
+                  <div className='info-pro'>
+
                     <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
                     <div className='source-btn'>View Source Code</div>
+
+                  </div>
+
+                  
               </div>
 
               <div className="card">
+                  <div className='img-con'>
+                      <img src="img/E.png" alt="card"/>
 
-              <img src="img/E.png" alt="card"/>
-              <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
-              <div className='source-btn'>View Source Code</div>
+                  </div>
+
+                    <div className='info-pro'>
+                      <h4> More Projects Coming Soon!! (Stay Tuned)</h4>
+                      <div className='source-btn'>View Source Code</div>
+
+                    </div>
+                  
               </div>
 
               <div className='right-btn' style={{ display: showRightBtnRow2 ? 'block' : 'none' }} onClick={handleRightBtnClickRow2}>
