@@ -408,11 +408,11 @@ div.img-intro img.img2 {
 
 @media only screen and (max-width: 1000px) {
 
-    .left-intro>.p-first{
+    .left-intro2>.p-first{
     
         font-size: 10px;
     }
-    .left-intro>.p-second{
+    .left-intro2>.p-second{
     
         font-size: 10px;
     }
@@ -431,11 +431,11 @@ div.img-intro img.img2 {
 
 @media only screen and (max-width: 899px) {
 
-    .left-intro>.p-first{
+    .left-intro2>.p-first{
     
         font-size: 11px;
     }
-    .left-intro>.p-second{
+    .left-intro2>.p-second{
     
         font-size: 11px;
     }
@@ -461,11 +461,11 @@ div.img-intro img.img2 {
         
         left: 10%;
     }
-    .left-intro>.p-first{
+    .left-intro2p-first{
     
         font-size: 9px;
     }
-    .left-intro>.p-second{
+    .left-intro2>.p-second{
     
         font-size: 9px;
     }
@@ -502,32 +502,32 @@ div.img-intro img.img2 {
 
 @media only screen and (max-width: 535px) {
 
-    .left-intro>.p-first{
+    .left-intro2>.p-first{
     
         font-size: 9px;
     }
-    .left-intro>.p-second{
+    .left-intro2>.p-second{
     
         font-size: 9px;
     }
     
-    .left-intro>h5{
+    .left-intro1>h5{
 
         font-size: 16px;
        
     }
 
-    .left-intro>h2{
+    .left-intro1>h2{
 
         font-size: 31px;
         
     }
-    .left-intro>h2>span{
+    .left-intro1>h2>span{
 
         font-size: 31px;
        
     }
-    .left-intro>h3{
+    .left-intro1>h3{
 
         font-size: 18px;
         color: #ff3838;
